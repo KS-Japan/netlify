@@ -1,0 +1,7 @@
+  node:
+    image: node:14.10
+    volumes: 
+      - .:/project
+    tty: true
+    working_dir: /project
+    command: bash
